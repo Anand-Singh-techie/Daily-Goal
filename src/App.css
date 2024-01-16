@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+nav {
+  background-color: rgb(44, 30, 242);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(81, 210, 210);
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax 8vmax;
+  box-sizing: border-box;
+}
+
+.container > h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea, button {
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid rgb(6, 6, 6);
+  border-radius: 12px;
+  font-size: 1rem;
+}
+button {
+  background-color: black;
+  color: white;
+}
+
+.task {
+  display: flex;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  border: 1px solid rgb(6, 6, 6);
+  margin: 10px 0;
+  align-items: center;
+}
+.task span {
+  color: rgba(0, 0, 0, 0.678);
+}
+.task > div {
+  width: 100%;
+}
+
+.task button {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  font-size: 1.4rem;
+  background-color: crimson;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+.task button:hover {
+  background-color: red;
+}
